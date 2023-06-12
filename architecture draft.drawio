@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T11:25:55.401Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sGwyMJxdzBsng_PNli4G" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T11:31:26.568Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bvoYA0HtxCrberN1OA7z" version="21.3.8" type="github">
   <diagram name="Page-1" id="cOIx72yUDyv0ea5JTbpS">
     <mxGraphModel dx="977" dy="348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -395,8 +395,8 @@
         <mxCell id="ck07P35WCiSa6XD7yUWr-41" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="uhZMHGMHi5VgXpGbjBEF-24" source="ck07P35WCiSa6XD7yUWr-8" target="ck07P35WCiSa6XD7yUWr-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uhZMHGMHi5VgXpGbjBEF-25" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Databricks autoloader &lt;/b&gt;is used to automatically pick up new files and merge into bronze layer based on storage account blob queue&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
-          <mxGeometry x="1049.0900000000001" y="271.5" width="100.6" height="95.5" as="geometry" />
+        <mxCell id="uhZMHGMHi5VgXpGbjBEF-25" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Databricks and DBT:&lt;/b&gt;&lt;br&gt;Enable seamless data transformation workflows. Databricks serverless SQL warehouse provided scalable processing capabilities while dbt provides a streamlined framework for effective iteration on data models and transformations. It also promotes data governance and documentation by enabling the creation of a single source of truth for data definitions and transformations.&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+          <mxGeometry x="1049.09" y="271.5" width="340.91" height="95.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
