@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T12:45:51.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6nIuMqEhfUxZWHWn9_8T" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T12:47:54.541Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Bq18PNWMSYyqYajSSyKr" version="21.3.8" type="github">
   <diagram name="Page-1" id="cOIx72yUDyv0ea5JTbpS">
     <mxGraphModel dx="1247" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -456,14 +456,14 @@
         <mxCell id="nc28-5GrHXwEy7TGHgv9-18" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;" vertex="1" parent="1">
           <mxGeometry x="1473.31" y="359" width="35.56" height="38.5" as="geometry" />
         </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-19" value="Notebooks" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="390.75" width="87.41" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="nc28-5GrHXwEy7TGHgv9-21" value="File sharing via SFTP" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="1470" y="666.79" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-22" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;SQL Warehouse - (SQL endpoint - JDBC):&lt;br&gt;&lt;/b&gt;for hardened professionals SQL is&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="nc28-5GrHXwEy7TGHgv9-22" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;SQL Warehouse - (SQL endpoint - ODBC):&lt;br&gt;&lt;/b&gt;for data professionals SQL is the defacto language for querying and analysing data. Hence, this will be our primary endpoint for a lot of users.&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
           <mxGeometry x="1540" y="260" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nc28-5GrHXwEy7TGHgv9-23" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Databricks Notebooks - (IDE endpoint):&lt;br&gt;&lt;/b&gt;working with and analysing data in jupyter-style notebooks is a preferred option for advanced data professionals that often specialice in data science. We will provide&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="349.75" width="210" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
