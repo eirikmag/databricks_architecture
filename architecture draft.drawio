@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T14:15:44.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="IBba5eDKz5fP9TXJKslL" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T14:22:08.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qQuQ_CLfR0iLQqIHdPl0" version="21.3.8" type="github">
   <diagram name="Page-1" id="cOIx72yUDyv0ea5JTbpS">
-    <mxGraphModel dx="1903" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1291" dy="1560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="ck07P35WCiSa6XD7yUWr-4" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="70" y="210" width="310" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="ck07P35WCiSa6XD7yUWr-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B5B5B5;" parent="1" vertex="1">
+        <mxCell id="ck07P35WCiSa6XD7yUWr-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="910" y="222.5" width="490" height="567.5" as="geometry" />
         </mxCell>
         <mxCell id="uhZMHGMHi5VgXpGbjBEF-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" parent="1" target="uhZMHGMHi5VgXpGbjBEF-29" edge="1">
@@ -132,7 +132,7 @@
         <mxCell id="ck07P35WCiSa6XD7yUWr-49" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Cost_Management_and_Billing.svg;" parent="1" vertex="1">
           <mxGeometry x="1143" y="932" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ck07P35WCiSa6XD7yUWr-50" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B5B5B5;" parent="1" vertex="1">
+        <mxCell id="ck07P35WCiSa6XD7yUWr-50" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="1450" y="220" width="490" height="570" as="geometry" />
         </mxCell>
         <mxCell id="ck07P35WCiSa6XD7yUWr-51" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;" parent="1" vertex="1">
@@ -187,7 +187,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aFtfkKAsS513QhjjgCZk-40" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B5B5B5;" parent="1" vertex="1">
-          <mxGeometry x="140" width="240" height="190" as="geometry" />
+          <mxGeometry x="84.65" y="-80" width="240" height="190" as="geometry" />
         </mxCell>
         <mxCell id="aFtfkKAsS513QhjjgCZk-41" value="Third party sources" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="140" y="10" width="160" height="30" as="geometry" />
@@ -349,56 +349,20 @@
         <mxCell id="nc28-5GrHXwEy7TGHgv9-25" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Delta Sharing:&lt;br&gt;&lt;/b&gt;Some consumers, be it system-users or external users will need access to certain datasets. Databricks delivers delta sharing as a means of giving both external and internal users access to data in the delta-format.&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;spacingTop=0;spacing=2;" parent="1" vertex="1">
           <mxGeometry x="1527" y="555" width="210" height="90.25" as="geometry" />
         </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-26" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;SFTP:&lt;br&gt;&lt;/b&gt;While most of our data usage will be from internal users and towards other endpoints. Some users don&#39;t have necessary skill or tooling to access and use neither SQL or APIs as endpoints. For these user groups, we will provide file-based exports on SFTP.&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;spacingTop=0;spacing=2;" parent="1" vertex="1">
+        <mxCell id="nc28-5GrHXwEy7TGHgv9-26" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;SFTP:&lt;br&gt;&lt;/b&gt;While most of our data usage will be from internal users and towards other endpoints. Some users don&#39;t have necessary skill or tooling to access and use neither SQL or APIs as endpoints. For these user groups, we will provide file-based exports on SFTP.&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;spacingTop=0;spacing=2;" parent="1" vertex="1">
           <mxGeometry x="1527" y="655" width="210" height="90.25" as="geometry" />
         </mxCell>
         <mxCell id="ck07P35WCiSa6XD7yUWr-57" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#067F68;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.transfer_for_sftp_resource;" parent="1" vertex="1">
           <mxGeometry x="1473" y="655" width="38.98" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-29" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1750" y="257.5" width="180" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-28" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Users typically include: &lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Analysts&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Data Scientists&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Data Engineers&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Systems&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=30;spacingRight=4;labelPosition=center;verticalLabelPosition=middle;" parent="nc28-5GrHXwEy7TGHgv9-29" vertex="1">
-          <mxGeometry y="3" width="180" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-5" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" parent="nc28-5GrHXwEy7TGHgv9-29" vertex="1">
-          <mxGeometry x="9.473684210526315" y="33.5" width="31.26315789473684" height="31.26315789473684" as="geometry" />
-        </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-30" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1750" y="355" width="180" height="95" as="geometry" />
-        </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-31" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Users typically include: &lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Analysts&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Data Scientists&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Data Engineers&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=30;spacingRight=4;labelPosition=center;verticalLabelPosition=middle;" parent="nc28-5GrHXwEy7TGHgv9-30" vertex="1">
-          <mxGeometry width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-32" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" parent="nc28-5GrHXwEy7TGHgv9-30" vertex="1">
-          <mxGeometry x="9.473684210526315" y="34.99625" width="31.26315789473684" height="31.26315789473684" as="geometry" />
-        </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-34" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1750" y="455" width="190" height="95" as="geometry" />
-        </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-35" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;User typically include: &lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Management&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Finance&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Operational Staff&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Analysts&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Data scientists&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=30;spacingRight=4;labelPosition=center;verticalLabelPosition=middle;" parent="nc28-5GrHXwEy7TGHgv9-34" vertex="1">
-          <mxGeometry width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-36" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" parent="nc28-5GrHXwEy7TGHgv9-34" vertex="1">
-          <mxGeometry x="10" y="27.90625" width="33" height="33" as="geometry" />
-        </mxCell>
         <mxCell id="nc28-5GrHXwEy7TGHgv9-37" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1750" y="555" width="190" height="95" as="geometry" />
+          <mxGeometry x="1750" y="550" width="190" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-38" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Users typically include: &lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;Systems&lt;/li&gt;&lt;li style=&quot;&quot;&gt;External parties&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Cross-platform data sharing (e.g. data science platform)&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=30;spacingRight=4;labelPosition=center;verticalLabelPosition=middle;" parent="nc28-5GrHXwEy7TGHgv9-37" vertex="1">
-          <mxGeometry width="180" height="90" as="geometry" />
+        <mxCell id="nc28-5GrHXwEy7TGHgv9-38" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Users typically include: &lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;Systems&lt;/li&gt;&lt;li style=&quot;&quot;&gt;External parties&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Cross-platform data sharing (e.g. data science platform)&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=30;spacingRight=4;labelPosition=center;verticalLabelPosition=middle;" parent="nc28-5GrHXwEy7TGHgv9-37" vertex="1">
+          <mxGeometry y="5" width="180" height="85" as="geometry" />
         </mxCell>
         <mxCell id="nc28-5GrHXwEy7TGHgv9-39" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" parent="nc28-5GrHXwEy7TGHgv9-37" vertex="1">
-          <mxGeometry x="10" y="27.90625" width="33" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-40" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1750" y="656" width="190" height="95" as="geometry" />
-        </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-41" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Users typically include: &lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: bold; background-color: initial;&quot;&gt;External parties&lt;br&gt;&lt;/span&gt;Regulatory officials&lt;br&gt;Partners&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;b&gt;Internal parties&lt;/b&gt;&lt;br&gt;Finance&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=30;spacingRight=4;labelPosition=center;verticalLabelPosition=middle;" parent="nc28-5GrHXwEy7TGHgv9-40" vertex="1">
-          <mxGeometry width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="nc28-5GrHXwEy7TGHgv9-42" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" parent="nc28-5GrHXwEy7TGHgv9-40" vertex="1">
-          <mxGeometry x="10" y="27.90625" width="33" height="33" as="geometry" />
+          <mxGeometry x="8.733684210526235" y="26.496250000000032" width="33" height="33" as="geometry" />
         </mxCell>
         <mxCell id="nc28-5GrHXwEy7TGHgv9-48" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -479,6 +443,45 @@
         </mxCell>
         <mxCell id="JY-W31a2LoIxZ08XVVNT-38" value="SHIR" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="295" y="274.25" width="26.39" height="14.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JY-W31a2LoIxZ08XVVNT-39" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Power BI&lt;br&gt;&lt;/b&gt;For most users, we will provide tabular models, datasets and reports via Power BI that will provide most of our users with a mix of ready-made reports and more advanced drill down reports and dataset pivoting capabilities. PBI also allows dataset usage in Excel.&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;spacingTop=0;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1527" y="455" width="210" height="90.25" as="geometry" />
+        </mxCell>
+        <mxCell id="JY-W31a2LoIxZ08XVVNT-40" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Databricks Notebooks - (IDE endpoint):&lt;br&gt;&lt;/b&gt;working with and analysing data in jupyter-style notebooks is the preferred option for many advanced data professionals that often specialize in data science. Databricks has a built in notebook-IDE we can allow users to access without disruption of our environments&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;spacingTop=0;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1527" y="355" width="210" height="90.25" as="geometry" />
+        </mxCell>
+        <mxCell id="JY-W31a2LoIxZ08XVVNT-41" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;SQL Warehouse - (SQL endpoint - ODBC/JDBC):&lt;br&gt;&lt;/b&gt;SQL is the de facto language for querying and analysing data. Databricks provides SQL endpoints to allow users access to our data platform.&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="1527" y="260" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JY-W31a2LoIxZ08XVVNT-51" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Delta Sharing:&lt;br&gt;&lt;/b&gt;Some consumers, be it system-users or external users will need access to certain datasets. Databricks delivers delta sharing as a means of giving both external and internal users access to data in the delta-format.&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;spacingTop=0;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1527" y="555" width="210" height="90.25" as="geometry" />
+        </mxCell>
+        <mxCell id="JY-W31a2LoIxZ08XVVNT-43" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Users typically include: &lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Analysts&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Data Scientists&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Data Engineers&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Systems&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=30;spacingRight=4;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="261" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JY-W31a2LoIxZ08XVVNT-44" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" vertex="1" parent="1">
+          <mxGeometry x="1758.7336842105262" y="283" width="31.26315789473684" height="31.26315789473684" as="geometry" />
+        </mxCell>
+        <mxCell id="nc28-5GrHXwEy7TGHgv9-31" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Users typically include: &lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Analysts&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Data Scientists&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Data Engineers&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=30;spacingRight=4;labelPosition=center;verticalLabelPosition=middle;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="355" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="nc28-5GrHXwEy7TGHgv9-32" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" parent="1" vertex="1">
+          <mxGeometry x="1758.7336842105262" y="388.73625000000004" width="31.26315789473684" height="31.26315789473684" as="geometry" />
+        </mxCell>
+        <mxCell id="JY-W31a2LoIxZ08XVVNT-50" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="482.90625" width="33" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="nc28-5GrHXwEy7TGHgv9-35" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;User typically include: &lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Management&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Finance&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Operational Staff&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Analysts&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Data scientists&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=30;spacingRight=4;labelPosition=center;verticalLabelPosition=middle;" parent="1" vertex="1">
+          <mxGeometry x="1750.5" y="455" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JY-W31a2LoIxZ08XVVNT-54" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" vertex="1" parent="1">
+          <mxGeometry x="1758.7336842105262" y="482.90625" width="33" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="nc28-5GrHXwEy7TGHgv9-41" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;Users typically include: &lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-weight: bold; background-color: initial;&quot;&gt;External parties&lt;br&gt;&lt;/span&gt;Regulatory officials&lt;br&gt;Partners&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;b&gt;Internal parties&lt;/b&gt;&lt;br&gt;Finance&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#B5B5B5;fillColor=default;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=30;spacingRight=4;labelPosition=center;verticalLabelPosition=middle;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="656" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nc28-5GrHXwEy7TGHgv9-42" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" parent="1" vertex="1">
+          <mxGeometry x="1758.7336842105262" y="683.90625" width="33" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
